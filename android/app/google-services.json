@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762283125315",
+    "project_id": "hackodisha-338f1",
+    "storage_bucket": "hackodisha-338f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762283125315:android:1f94721d21af67d82342f6",
+        "android_client_info": {
+          "package_name": "com.example.hack_odisha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762283125315-d9i4lljju4l5oce3ndrsm5n4ej3m5jfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAng0psZOA8YJ3OldvktLv6nqY3BjJbxLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762283125315-d9i4lljju4l5oce3ndrsm5n4ej3m5jfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

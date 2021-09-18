@@ -1,13 +1,27 @@
+import 'dart:io';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:hack_odisha/onboarding.dart';
 import 'package:hack_odisha/ViewModel/ShowonBoarding.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'dart:async';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
+import 'HomePage.dart';
+
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
+  DocumentSnapshot snapshot = await firebaseFirestore.collection('users').doc('EMAWBkmVwvakrPqA3MHC').get();
+  check.isOnboarded = snapshot['isFirstTime'];
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget{
 
   // This widget is the root of your application.
   @override
@@ -52,7 +66,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return !check.isOnboarded ?  OnBoarding() : Container(child: Center(child: CircularProgressIndicator()));
+    return check.isOnboarded ?  OnBoarding() : Home();
     // TODO: implement build
     throw UnimplementedError();
   }

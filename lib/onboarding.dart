@@ -1,8 +1,11 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hack_odisha/main.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'HomePage.dart';
 import 'ViewModel/onBoarding_VM.dart';
+import 'ViewModel/ShowonBoarding.dart';
 
 class OnBoarding extends StatefulWidget {
   const OnBoarding({Key? key}) : super(key: key);
@@ -311,8 +314,14 @@ class _OnBoardingState extends State<OnBoarding> {
                         height: _mediaQuery.height/20,
                         child: ElevatedButton(
                           onPressed: (){
+                            if (_currentPage >= 2) {
+                              FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
+                              firebaseFirestore.collection('users').doc('EMAWBkmVwvakrPqA3MHC').set({
+                                'isFirstTime' : false
+                              });
+                            } 
                             _currentPage < 2 ? _currentPage++ : Navigator.push(context, MaterialPageRoute(
-                                builder: (context) => Container())
+                                builder: (context) => Home())
                             );
                             pageController.nextPage(duration: Duration(milliseconds: 10), curve: Curves.easeIn);
                             setState(() {});
