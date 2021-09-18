@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:hack_odisha/main.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'ViewModel/onBoarding_VM.dart';
 
@@ -14,8 +15,10 @@ class _OnBoardingState extends State<OnBoarding> {
   final int _noOfPages = 3;
   final PageController pageController = PageController(initialPage: 0);
   int _currentPage = 0;
+  String buttonText = "Next";
 
   List<Widget> _buildPageIndicator(){
+    buttonText = _currentPage==2 ? "Let\'s go" : "Next";
     List<Widget> list = [];
     for(int i=0;i<_noOfPages;i++){
       list.add(i==_currentPage ? _indicator(true) : _indicator(false));
@@ -24,6 +27,7 @@ class _OnBoardingState extends State<OnBoarding> {
   }
 
   Widget _indicator(bool isActive){
+
     return AnimatedContainer(duration: Duration(milliseconds: 150),
     margin: EdgeInsets.symmetric(horizontal: 8.0),
       height: 8.0,
@@ -53,6 +57,7 @@ class _OnBoardingState extends State<OnBoarding> {
                     onPageChanged: (int page){
                       setState(() {
                         _currentPage = page;
+                        print(pageController);
                       }
                       );
                     },
@@ -279,6 +284,7 @@ class _OnBoardingState extends State<OnBoarding> {
                                               fontSize: _mediaQuery.height/44
                                           ),
                                         ),
+
                                       ],
                                     ),
                                   ),
@@ -293,8 +299,38 @@ class _OnBoardingState extends State<OnBoarding> {
                 ),
                 Expanded(
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: _buildPageIndicator(),
+                    children: [
+                      Expanded(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: _buildPageIndicator(),
+                        ),
+                      ),
+                      SizedBox(
+                        width: _mediaQuery.width/4,
+                        height: _mediaQuery.height/20,
+                        child: ElevatedButton(
+                          onPressed: (){
+                            _currentPage < 2 ? _currentPage++ : Navigator.push(context, MaterialPageRoute(
+                                builder: (context) => Container())
+                            );
+                            pageController.nextPage(duration: Duration(milliseconds: 10), curve: Curves.easeIn);
+                            setState(() {});
+                          },
+                          child: Text(
+                            '${buttonText}',
+                            style: TextStyle(
+                              color: HexColor("#ffB0B0B0"),
+                              fontSize: _mediaQuery.height/45,
+                            ),
+                          ),
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all(HexColor("#ff2B1570")),
+
+                          ),
+                        ),
+                      )
+                    ],
                   ),
                 )
               ],
