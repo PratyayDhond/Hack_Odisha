@@ -200,7 +200,7 @@ FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
                // Divider(color: Colors.white,),
 
               SizedBox(
-                height: 200, // card height
+                height: _mediaQuery.height*0.27, // card height
                 child: StreamBuilder(
                   stream : firebaseFirestore.collection('cards').snapshots(),
                   builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {

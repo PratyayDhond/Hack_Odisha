@@ -317,7 +317,8 @@ class _OnBoardingState extends State<OnBoarding> {
                             if (_currentPage >= 2) {
                               FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
                               firebaseFirestore.collection('users').doc('EMAWBkmVwvakrPqA3MHC').set({
-                                'isFirstTime' : false
+                                'isFirstTime' : false,
+                                'sendNewsLetters' : false
                               });
                             } 
                             _currentPage < 2 ? _currentPage++ : Navigator.push(context, MaterialPageRoute(

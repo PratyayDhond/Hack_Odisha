@@ -18,6 +18,7 @@ void main() async{
   FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
   DocumentSnapshot snapshot = await firebaseFirestore.collection('users').doc('EMAWBkmVwvakrPqA3MHC').get();
   check.isOnboarded = snapshot['isFirstTime'];
+  check.isSubscribed = snapshot['sendNewsLetters'];
   runApp(MyApp());
 }
 
