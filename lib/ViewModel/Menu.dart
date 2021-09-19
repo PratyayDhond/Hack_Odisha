@@ -3,6 +3,7 @@ import 'package:hexcolor/hexcolor.dart';
 
 import '../community.dart';
 import '../motivation.dart';
+import '../overcome.dart';
 import '../quotes.dart';
 
 class Menu extends StatefulWidget {
@@ -165,7 +166,11 @@ class _MenuState extends State<Menu> {
                           Container(
                             child: InkWell(
                               onTap: (){
-                                
+                                Navigator.push(context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Overcome(),
+                                    ),
+                                );
                               },
                               child: Card(
                                 color: HexColor("#ff231539"),
