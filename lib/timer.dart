@@ -2,18 +2,27 @@ import 'package:flutter/material.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+
+
 class Timer extends StatefulWidget {
   Timer({Key? key, this.title}) : super(key: key);
-
   final String? title;
 
   @override
-  _TimerState createState() => _TimerState();
+  TimerState createState() => TimerState();
 }
 
-class _TimerState extends State<Timer> {
+class TimerState extends State<Timer> {
   CountDownController _controller = CountDownController();
   int _duration = 60*60*24*90;
+
+
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -26,6 +35,7 @@ class _TimerState extends State<Timer> {
 
             // Countdown initial elapsed Duration in Seconds.
             initialDuration: 0,
+
 
             // Controls (i.e Start, Pause, Resume, Restart) the Countdown Timer.
             controller: _controller,
