@@ -125,7 +125,7 @@ class _OnBoardingState extends State<OnBoarding> {
                                       text: TextSpan(
                                         children: [
                                           TextSpan(
-                                            text: 'We are glad to have your with us.\n',
+                                            text: 'We are glad to have you with us.\n',
                                             style: TextStyle(
                                                 color: HexColor("#ffB0B0B0"),
                                                 fontWeight: FontWeight.w500,

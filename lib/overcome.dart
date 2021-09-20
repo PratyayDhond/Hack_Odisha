@@ -152,11 +152,10 @@ class _OvercomeState extends State<Overcome> {
                                       'sendNewsLetters' : true,
                                       'isFirstTime'     : false
                                     });
-                                    setState(){}
+
                                     Navigator.pop(context);
-                                    Navigator.push(context,MaterialPageRoute(
-                                      builder: (context) => Overcome()
-                                    ));
+                                    check.isSubscribedCheck();
+                                    setState(){}
                                 }else{
                                   showDialog(
                                       context: context,

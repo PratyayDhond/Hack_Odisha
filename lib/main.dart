@@ -14,11 +14,12 @@ import 'HomePage.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp();
   FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
   DocumentSnapshot snapshot = await firebaseFirestore.collection('users').doc('EMAWBkmVwvakrPqA3MHC').get();
   check.isOnboarded = snapshot['isFirstTime'];
-  check.isSubscribed = snapshot['sendNewsLetters'];
+ check.isSubscribed = snapshot['sendNewsLetters'];
   runApp(MyApp());
 }
 
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
