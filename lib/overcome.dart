@@ -188,7 +188,7 @@ class _OvercomeState extends State<Overcome> {
                 ),
                 Padding(
                   padding: EdgeInsets.only(top: _mediaQuery.height*0.05,left: _mediaQuery.width*0.08,right: _mediaQuery.width*0.08),
-                  child: Text('Uh oh! there are no new newsletters out yet.',style: TextStyle(color: HexColor("#ffB0B0B0"),fontSize: _mediaQuery.height*0.03),),
+                  child: Text('Uh oh! There are no new newsletters out yet!',style: TextStyle(color: HexColor("#ffB0B0B0"),fontSize: _mediaQuery.height*0.03),),
                 )
               ],
             ),

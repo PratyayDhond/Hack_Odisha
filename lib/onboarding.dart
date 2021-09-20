@@ -133,7 +133,7 @@ class _OnBoardingState extends State<OnBoarding> {
                                             ),
                                           ),
                                           TextSpan(
-                                            text: 'By installing the app you have already set yourself in motion for overcoming this addiction.\n',
+                                            text: 'By installing this app you have already set yourself in motion for overcoming this addiction.\n',
                                             style: TextStyle(
                                                 color: HexColor("#ffB0B0B0"),
                                                 fontWeight: FontWeight.w500,
@@ -141,7 +141,7 @@ class _OnBoardingState extends State<OnBoarding> {
                                             ),
                                           ),
                                           TextSpan(
-                                            text: 'Now Lets get over this together!',
+                                            text: 'Now Let\'s get over this together!',
                                             style: TextStyle(
                                                 color: HexColor("#ffB0B0B0"),
                                                 fontWeight: FontWeight.w500,

@@ -189,7 +189,7 @@ class _MenuState extends State<Menu> {
                           ),
                           Padding(
                             padding: EdgeInsets.only(left: _mediaQuery.width*0.03),
-                            child: Text('overcome Addiction',style: TextStyle(color: HexColor("#ffB0B0B0"),fontWeight: FontWeight.w500,fontSize: _mediaQuery.height*0.02),),
+                            child: Text('Overcome addiction',style: TextStyle(color: HexColor("#ffB0B0B0"),fontWeight: FontWeight.w500,fontSize: _mediaQuery.height*0.02),),
                           )
                         ],
                       ),
