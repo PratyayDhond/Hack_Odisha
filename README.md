@@ -39,5 +39,24 @@ Below are the snapshots of this app : <br><br>
  <div>
 <h2> Relapse Pop-up </h2>
  <p> This is the page where the user can reset the timer if they have relapsed.</p>
+ <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/6.jpg" alt="Relapse_pop_up" height="500rem" style="float:right;">
+</div>
+
+ <div>
+<h2> Menu Page </h2>
+ <p> This is the menu of the app.</p>
+ <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/7.jpg" alt="Relapse_pop_up" height="500rem" style="float:right;">
+</div>
+
+ <div>
+<h2> Relapse Pop-up </h2>
+ <p> This is the page where the user can reset the timer if they have relapsed.</p>
  <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/5.jpg" alt="Relapse_pop_up" height="500rem" style="float:right;">
 </div>
+
+ <div>
+<h2> Relapse Pop-up </h2>
+ <p> This is the page where the user can reset the timer if they have relapsed.</p>
+ <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/5.jpg" alt="Relapse_pop_up" height="500rem" style="float:right;">
+</div>
+
