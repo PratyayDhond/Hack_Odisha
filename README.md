@@ -7,7 +7,7 @@ This is the Repository for the 'Rehab' Application I made during the HackOdisha 
 Below are the snapshots of this app : <br><br>
 
 <div>
-<img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/1.jpg" alt="Onboarding_page_1" height="600rem" style="float:right;">
-<img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/1.jpg" alt="Onboarding_page_1" height="600rem"style="float:right;">
- <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/1.jpg" alt="Onboarding_page_1" height="600rem"style="float:right;">
+<img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/1.jpg" alt="Onboarding_page_1" height="500rem" style="float:right;">
+<img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/1.jpg" alt="Onboarding_page_1" height="500rem"style="float:right;">
+ <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/1.jpg" alt="Onboarding_page_1" height="500rem"style="float:right;">
  </div>
