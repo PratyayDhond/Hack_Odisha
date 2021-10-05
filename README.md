@@ -29,3 +29,9 @@ Below are the snapshots of this app : <br><br>
  <p> This is the first page of the App and it consists of a 90 day timer to count user's progress, <br>several cards to keep recordof healthy activities and random quote section.</p>
  <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/4.jpg" alt="Home_page" height="500rem" style="float:right;">
 </div>
+
+ <div>
+<h2> Home Page Quote</h2>
+ <p> The user can view the full quote by just clicking on it.<br> Also the quote is randomly generated everytime.</p>
+ <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/5.jpg" alt="Home_page_quote" height="500rem" style="float:right;">
+</div>
