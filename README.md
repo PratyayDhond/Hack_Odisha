@@ -12,8 +12,14 @@ Below are the snapshots of this app : <br><br>
  <p> This is the welcome/Onboarding page for the users who are visiting the app for the first time.</p>
 </div>
 
-<br>
-<img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/2.jpg" alt="Onboarding_page_2" height="500rem"style="float:right;">
+<div>
+<img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/2.jpg" alt="Onboarding_page_2" height="500rem" style="float:right;">
+<h2> Commitment Page </h2>
+ <p>This is the page where users are asked to commit thereselves to the goal.</p>
+</div>
  
- <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/3.jpg" alt="Onboarding_page_3" height="500rem"style="float:right;">
- 
+ <div>
+<img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/3.jpg" alt="Onboarding_page_3" height="500rem" style="float:right;">
+<h2> Get Started Page </h2>
+ <p> This is the last page of the onboarding process and users can get started with the app after this.</p>
+</div>
