@@ -35,3 +35,9 @@ Below are the snapshots of this app : <br><br>
  <p> The user can view the full quote by just clicking on it.<br> Also the quote is randomly generated everytime.</p>
  <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/5.jpg" alt="Home_page_quote" height="500rem" style="float:right;">
 </div>
+
+ <div>
+<h2> Relapse Pop-up </h2>
+ <p> This is the page where the user can reset the timer if they have relapsed.</p>
+ <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/5.jpg" alt="Relapse_pop_up" height="500rem" style="float:right;">
+</div>
