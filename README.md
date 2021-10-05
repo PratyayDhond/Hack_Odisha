@@ -23,3 +23,9 @@ Below are the snapshots of this app : <br><br>
  <p> This is the last page of the onboarding process and users can get started with the app after this.</p>
  <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/3.jpg" alt="Onboarding_page_3" height="500rem" style="float:right;">
 </div>
+
+ <div>
+<h2> Home Page </h2>
+ <p> This is the first page of the App and it consists of a 90 day timer to count user's progress, <br>several cards to keep recordof healthy activities and random quote section.</p>
+ <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/4.jpg" alt="Home_page" height="500rem" style="float:right;">
+</div>
