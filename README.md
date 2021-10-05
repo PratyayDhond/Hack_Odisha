@@ -84,3 +84,9 @@ Below are the snapshots of this app : <br><br>
  <img src="https://github.com/PratyayDhond/Hack_Odisha/blob/main/image/13.jpg" alt="newsletter" height="500rem" style="float:right;">
 </div>
 
+
+<br><br>
+
+<p>
+  So these were all the screenshots of the app i developed in less than 33 hours in the Hackathon HackOdisha. 
+ </p>
